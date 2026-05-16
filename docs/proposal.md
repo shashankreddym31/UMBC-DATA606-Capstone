@@ -191,6 +191,94 @@ The dataset will be used for:
 Special attention will be given to handling class imbalance since severe crashes are relatively rare compared to non-severe crashes.
 
 ---
+# 4. Exploratory Data Analysis (EDA)
+
+## Data Cleaning and Preparation
+
+Before performing analysis, the dataset was cleaned and prepared for machine learning.
+
+The following preprocessing steps were performed:
+
+- Removed unnecessary columns not relevant to crash severity prediction
+- Handled missing values in categorical columns by replacing them with "UNKNOWN"
+- Converted numeric columns such as `LANE_CNT` into proper numeric format
+- Filled missing numeric values using median imputation
+- Created a binary target variable called `Severe`
+
+Target variable definition:
+
+- Severe = 1 → if `INJURIES_FATAL > 0` OR `INJURIES_INCAPACITATING > 0`
+- Severe = 0 → otherwise
+
+This transformation converts the original dataset into a binary classification problem.
+
+---
+
+## Exploratory Data Analysis
+
+Exploratory Data Analysis was performed to better understand crash patterns, feature distributions, and relationships with crash severity.
+
+The analysis focused on:
+
+### Class Distribution
+The dataset was analyzed to examine the imbalance between severe and non-severe crashes.
+
+This helps determine whether resampling or class weighting techniques may be necessary during model training.
+
+---
+
+### Temporal Crash Analysis
+Crash timing patterns were explored using:
+
+- Crash hour
+- Day of week
+- Month of crash
+
+This helps identify whether severe crashes are associated with specific times or seasonal patterns.
+
+---
+
+### Environmental Condition Analysis
+Crash severity was explored across environmental factors such as:
+
+- Weather condition
+- Lighting condition
+- Road surface condition
+
+These variables may strongly influence accident outcomes.
+
+---
+
+### Crash Cause Analysis
+Primary contributing causes of crashes were analyzed to identify common behavioral or situational risk factors.
+
+Examples include:
+
+- Speeding
+- Distracted driving
+- Failure to yield
+- Improper turning
+
+---
+
+### Feature Relationship Analysis
+Relationships between important predictors and crash severity were explored to identify useful features for machine learning.
+
+Insights from EDA helped guide feature selection and model development.
+
+---
+
+## Visualization and Interpretation
+Multiple visualizations were created during EDA, including:
+
+- Class distribution plots
+- Crash frequency by hour
+- Weather condition distribution
+- Lighting condition comparisons
+- Top contributing causes
+- Feature importance analysis
+
+These visualizations provided meaningful insights into crash severity behavior and supported model development.
 
 # Summary
 
