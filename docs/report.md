@@ -14,7 +14,7 @@
 
 **PowerPoint Presentation:**  https://github.com/shashankreddym31/UMBC-DATA606-Capstone/blob/main/docs/Traffic_Crash_Severity_Presentation.pptx
 
-**YouTube Video:** [To be added]
+**YouTube Video:** https://youtu.be/QbHpKTBWABw
 
 ---
 
