@@ -10,7 +10,7 @@
 
 **GitHub Repository:** https://github.com/shashankreddym31/UMBC-DATA606-Capstone
 
-**LinkedIn Profile:** [To be added]
+**LinkedIn Profile:** www.linkedin.com/in/shashank-reddy-589a48244
 
 **PowerPoint Presentation:**  https://github.com/shashankreddym31/UMBC-DATA606-Capstone/blob/main/docs/Traffic_Crash_Severity_Presentation.pptx
 
