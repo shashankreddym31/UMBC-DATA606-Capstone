@@ -13,7 +13,7 @@ Shashank Reddy Muthangi
 https://github.com/shashankreddym31/UMBC-DATA606-Capstone  
 
 **LinkedIn Profile Link:**  
-[To be added]
+www.linkedin.com/in/shashank-reddy-589a48244
 
 **PowerPoint Presentation Link:**  
 [To be added after presentation is created]
